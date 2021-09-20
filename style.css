@@ -62,7 +62,8 @@ body {
 
 .currency {
     position: absolute;
-    font-size: 28px;
+    font-size: 2.1rem;
+    margin-top: -.3rem;
     font-weight: lighter !important;
     padding-left: 10px;
     opacity: 0.5;
@@ -139,7 +140,7 @@ body {
 
 .photo {
     position: absolute;
-    top: 527px;
+    margin-top: 11px;
     padding-left: 10px;
     z-index: 2;
 }
@@ -215,9 +216,6 @@ body {
     .selectTip {
         padding-top: 3rem;
         padding-bottom: 3rem;
-    }
-    .photo {
-        top: 477px;
     }
     .totalText {
         margin: 2.5rem;
