@@ -62,8 +62,7 @@ body {
 
 .currency {
     position: absolute;
-    font-size: 2.1rem;
-    margin-top: -.3rem;
+    font-size: 1.6rem;
     font-weight: lighter !important;
     padding-left: 10px;
     opacity: 0.5;
