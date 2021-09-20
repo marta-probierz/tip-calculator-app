@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <title>Tip calculator app</title>
+
+</head>
+<body>
+
+<div class="container">
+
+  <div class="data">
+
+        <div class="flags">
+          <a href="#" language='english' class="english"><img src="us.svg" width="25"></a>
+          <a href="#" language='polish' class="polish"><img src="pl.svg" width="25"></a>
+          <a href="#" language='russian' class="russian"><img src="ru.svg" width="25">
+          </div></a>
+         
+        <p class="bill">Bill</p>
+        <p class="currency" id="us">$</p>
+
+          <form class="billform">
+            <input type="text" id="bill" name="bill" value="0">
+          </form>
+          
+      <div class="selectTip"> 
+        <p class="selTip">Select Tip %</p>
+
+          <div class="tips">
+            <button class="btt">5%</button>
+            <button class="btt">10%</button>
+            <button class="btt">15%</button>
+            <button class="btt">20%</button>
+            <button class="btt">25%</button>
+            <form class="custom"><input class="btt" id="custom" type="text" name="custom" value="Custom"></form>
+            
+          </div>
+        </div>  
+      <div class="errors">
+        <p class="num">Number of People</p>
+        <p class="errorText">Can't be zero</p>
+        
+      </div>
+
+          <form class="people">
+            <input type="text" id="people" name="people" 
+            value="1">
+          </form>
+          <img class='photo' src="icon-person.svg" alt="People">
+  </div>
+
+  <div class="total">
+    <div class="totalText">
+        <div class="totalContainer">
+          <p class="bold tipAmount">Tip Amount</p>
+          <p class="amount" id="totalTip">0.00</p>
+          <p class="light">/ person</p>
+        </div>
+
+        <div class="totalContainer">
+          <p class="bold totalTxt">Total</p>
+          <p class="amount" id="total">0.00</p>
+          <p class="light light2">/ person</p>
+        </div>
+        <button class="resetBtn">Reset</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
